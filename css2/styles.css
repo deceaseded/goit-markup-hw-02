@@ -1,0 +1,132 @@
+.page {
+    font-family: Roboto, sans-serif
+}
+
+/* Header */
+.logo-link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    font-family: Raleway;
+
+}
+
+.logo-header {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    font-family: Raleway;
+}
+
+.site-nav {
+    list-style: none;
+}
+
+.site-nav a {
+    color: #212121;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.site-nav a:hover {
+    color: #2196F3;
+}
+
+.site-nav a:focus {
+    color: #2196F3;
+}
+
+.auth-nav {
+    list-style: none;
+}
+
+.auth-nav a {
+    color: #757575;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+}
+
+.auth-nav a:hover {
+    color: #2196F3;
+}
+
+.auth-nav a:focus {
+    color: #2196F3;
+}
+
+/* Main */
+.list {
+    list-style: none;
+}
+
+.list .items {
+    color: #212121;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+}
+
+.list .items:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.list .items:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.list .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.list .text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/* footer */
+.adress-nav {
+    list-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+
+.adress {
+    color: #FFFFFF;
+}
+.auth-nav{
+    color: rgba(255, 255, 255, 0.6);
+}
