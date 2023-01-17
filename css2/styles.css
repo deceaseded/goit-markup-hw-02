@@ -1,38 +1,47 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color:#2196F3;
+
+
+}
 .page {
-    font-family: Roboto, sans-serif
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background: #FFFFFF;
+    color: var(--primary-text-color);
 }
 
 /* Header */
 .logo-link {
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--accent-color);
+    text-decoration: none;
     font-family: Raleway;
-
 }
 
 .logo-header {
-
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    letter-spacing: 0.03em;
-    color: #000000;
-    font-family: Raleway;
+    color: var(--title-text-color);
+    text-decoration: none;
 }
+
 
 .site-nav {
     list-style: none;
 }
+.site-nav .link.current{
+    color: var(--accent-color);
+}
 
 .site-nav a {
-    color: #212121;
-
-    font-style: normal;
+    color: var(--title-text-color);
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
@@ -40,11 +49,11 @@
 }
 
 .site-nav a:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .site-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .auth-nav {
@@ -52,22 +61,20 @@
 }
 
 .auth-nav a {
-    color: #757575;
-
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    text-decoration: none;
+    color: var(--primary-text-color);
 }
 
 .auth-nav a:hover {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .auth-nav a:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Main */
@@ -76,57 +83,68 @@
 }
 
 .list .items {
-    color: #212121;
-    font-style: normal;
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
-    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
 .list .items:hover {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 .list .items:focus {
     color: #FFFFFF;
-    background-color: #2196F3;
+    background-color: var(--accent-color);
 }
 
 .list .title {
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .list .text {
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
-    letter-spacing: 0.03em;
-    color: #757575;
 }
 
 /* footer */
+.logo-footer{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    font-family: Raleway;
+    text-decoration: none;
+}
+.foot{
+    background-color: #2F303A;
+}
 .adress-nav {
     list-style: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
 }
-
-.adress {
+.adress a{
     color: #FFFFFF;
+    text-decoration: none;
 }
-.auth-nav{
+.auth-footer a{
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.auth-footer a:hover{
+    color: var(--accent-color);
+}
+.auth-footer a:hover{
+    color: var(--accent-color);
 }
