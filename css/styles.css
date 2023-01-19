@@ -8,6 +8,7 @@
     --button-bcg-color:#188CE8;
     --auth-footer-color:rgba(255, 255, 255, 0.6);
     --accent-text-color:#FFFFFF;
+    --bcg-button-color:#F5F4FA;
 }
 .page {
     font-family: Roboto, sans-serif;
@@ -18,6 +19,18 @@
 }
 
 /* header */
+.header{
+    background-color: #FFFFFF;
+}
+/* container-head */
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    outline: 2px solid blueviolet;
+}
 .logo-link {
     font-weight: 700;
     font-size: 26px;
@@ -272,18 +285,35 @@
 }
 
 /* Main */
+/* container body */
+.port-body-container{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1200px;
+    outline: 2px solid yellow;
+}
 .port-list {
     list-style: none;
+    
 }
 
-.port-list .items {
+.port-list .port-items {
     color: var(--title-text-color);
+    background-color: var(--bcg-button-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     cursor: pointer;
     font-family: inherit;
+    border-radius: 4px;
+    padding: 6px 22px;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid transparent;
+    
 }
 
 .port-list .port-items:hover {
